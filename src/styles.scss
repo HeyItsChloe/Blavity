@@ -1,0 +1,23 @@
+* {
+    text-align: center;
+
+}
+
+.header {
+    padding: .7%;
+    margin-bottom: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,44,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.eachArticle {
+    border-style: solid;
+    border-color: black;
+    margin: 2%;
+}
+
+.savedArticles {
+    border-style: solid;
+    border-color: blue;
+    margin: 2%; 
+}
