@@ -26,8 +26,8 @@ class News extends Component {
             for (let i=0; i<res.articles.length; i++){
                 results.push(
                     <div key={i}  className='savedArticles'>
-                        <div>{res.articles[i].title}</div>
-                        <div>{res.articles[i].url} </div> <br></br>
+                        <div><b>TITLE:</b>{res.articles[i].title}</div>
+                        <div><b>URL:</b>{res.articles[i].url} </div> <br></br>
                     </div>
                 )
             }

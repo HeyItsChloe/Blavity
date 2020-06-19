@@ -49,8 +49,8 @@ class NewRows extends Component {
         return (
             <div>
                 <div className='eachArticle'>
-                    title: {this.props.title} <br></br>
-                    url: {this.props.url} <br></br>
+                    <b>TITLE:</b> {this.props.title} <br></br>
+                    <b>URL:</b> {this.props.url} <br></br>
                     <button onClick={this.saveNews}>save</button>
                 </div>
             </div>

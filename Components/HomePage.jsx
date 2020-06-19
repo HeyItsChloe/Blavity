@@ -8,8 +8,8 @@ class HomePage extends Component {
         super(props)
         this.state = {
             updateNews: false,
-            title: '',
-            url: '',
+            title: [],
+            url: [],
             getSaved: false
         }
         this.getNews = this.getNews.bind(this)
@@ -23,7 +23,7 @@ class HomePage extends Component {
     }
 
     getNews () {
-        const url = 'http://newsapi.org/v2/everything?q=bitcoin&from=2020-05-18&sortBy=publishedAt&apiKey=531591f3d76844f6951459db1971562d'
+        const url = 'http://newsapi.org/v2/everything?q=bitcoin&from=2020-05-19&sortBy=publishedAt&apiKey=531591f3d76844f6951459db1971562d'
         axios.get(url)
         .then((res) => {
             let titles = []
